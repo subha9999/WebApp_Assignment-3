@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width,initial scale=1.0" >
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Assignment3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Contact Form</title>
+    <body>
+        <main>
+            <div class="container">
+            <section>
+                <div class="firstPart">
+                    <div class="address">
+                    <h4><span class="material-symbols-outlined">
+                        location_on
+                        </span>Address</h4>
+                        <p>Mada Center 8th floor,379 Hudson St,New York,NY 10018 US</p>
+                        </div>
+                        <div class="phone">
+                    <h4><span class="material-symbols-outlined">
+                        call
+                        </span>Let's Talk</h4>
+                        <p>+1 800 1236879</p>
+                    </div>
+                    <div class="support">
+                    <h4><span class="material-symbols-outlined">
+                        mail
+                        </span>General Support</h4>
+                        <p>contact@example.com</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="secondPart">
+                    <h2>Send Us A Message</h2>
+                <form action="Assignment3.php" method="POST">
+                     <div class="name">
+                     <p>TELL US YOUR NAME*</p>
+                     <label for="fname"></label>
+                     <input type="text" id="fname" name="fname" placeholder="First name">
+                     <label for="lname"></label>
+                     <input type="text" id="lname" name="lname" placeholder="Last name"><br><br>
+                     </div>
+                     <div class="email">
+                     <p>Enter your email*</p>
+                     <label for="email"></label>
+                     <input type="email" id="email" name="email" placeholder="Eg.example@email.com"><br>
+                     </div>
+                     <div class="number">
+                        <p>Enter phone number*</p>
+                     <label for="phoneNumber"></label>
+                     <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Eg.+18 00 00000"><br>
+                     </div>
+                     <div class="message">
+                        <p>Message*</p>
+                     <textarea id="message" name="message" rows="3" placeholder="Write us a message" required></textarea>
+                     <br>
+                    </div>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+            </section>
+            </div>
+        </main>
+    </body>
+
+</html>
