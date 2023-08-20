@@ -1,0 +1,122 @@
+.container{
+    display: flex;
+}
+.firstPart{
+    background-image: url("https://ychef.files.bbci.co.uk/1600x900/p0fpzf2c.webp");
+    background-size: cover;
+    width:50vw;
+    height:100vh;
+    color:white;
+}
+.address {
+    padding:150px 150px 0px 150px;
+}
+.phone {
+    padding-left:150px;
+    padding-right:150px;
+}
+.support {
+    padding-left:150px;
+    padding-right:150px;
+}
+.secondPart{
+    width:50vw;
+    height:100vh;
+    margin-top: 0px;
+}
+.secondPart h2{
+    margin-left:300px;
+    font-weight: 300;
+}
+.name{
+    margin-left:50px;
+    margin-right: 50px;
+}
+.name p{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    
+ }
+input[type="text"]{
+    width:326.4px;
+    height: 50px;
+    border: 1px solid #ccc;
+    display: inline-block; 
+    
+    
+}
+.material-symbols-outlined {
+  vertical-align: middle;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.email{
+    margin-left:50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    display: block;
+}
+
+.email p{
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    text-transform:uppercase;
+    margin-bottom: 0px;
+}
+input[type="email"]{
+    width:662.5px;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+.number{
+    margin-left:50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    display: block;
+}
+
+.number p{
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    text-transform:uppercase;
+    margin-bottom: 0px;
+}
+input[type="tel"]{
+    width:662.5px;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+.message{
+    margin-left:50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    display: block;
+}
+
+.message p{
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    text-transform:uppercase;
+    margin-bottom: 0px;
+}
+textarea{
+    width:662.5px;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"]{
+    background-color: rgb(15, 197, 97);
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    margin-left:300px;
+    margin-top:20px;
+}
